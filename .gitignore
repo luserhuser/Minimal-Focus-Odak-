@@ -1,0 +1,41 @@
+# Build outputs and local diagnostics
+*.exe
+*.dll
+*.pdb
+bin/
+obj/
+artifacts/
+*.zip
+/test-results.txt
+/resource-check.txt
+
+# Generated screenshots may contain personal tasks
+/preview.png
+
+# User data, credentials and local configuration
+.env
+.env.*
+!.env.example
+state.json
+state.*
+exit-request
+*.bak
+*.tmp
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+secrets*.json
+appsettings.*.local.json
+
+# Editor and OS files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store
